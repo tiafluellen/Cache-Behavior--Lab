@@ -45,7 +45,7 @@ Ratio (Col/Row)
 
 The results show that row-major traversal was faster for every matrix size. The performance difference became more noticeable as the matrix sizes increased. At 4000 x 4000, column-major traversal took about seven times longer than row-major traversal.
 
-![Column-major assembly](column-major-assembly.png)
+
 
 I tested the program using three compiler optimization levels: O0, O2, and O3.
 
