@@ -127,14 +127,12 @@ Section 3: Assembly Analysis
 
 I used Compiler Explorer with x86-64 GCC to examine both traversal functions.
 
-Row-Major Assembly Screenshot:
+!<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/57698bc8-08e2-41b2-8bb6-8fead7485b43" />
 
-[Insert row-major assembly screenshot here.]
 
-Column-Major Assembly Screenshot:
 
-[Insert column-major assembly screenshot here.]
 
+<img width="1470" height="956" alt="Screenshot 2026-11-03 at 1 36 43 PM" src="https://github.com/user-attachments/assets/ec1708c7-be30-4e68-82e6-be786b31bce8" />
 The two functions generate similar types of assembly instructions because they perform the same basic operations. Both load values from memory, add them to a running total, and use loops to visit the matrix elements. However, the order of their memory accesses is different. The row-major function accesses consecutive elements within each row, while the column-major function moves between different rows for each element. This shows that the performance difference comes mainly from memory access patterns and cache behavior rather than the amount of computation.
 
 Section 4: Cache Behavior Explanation
