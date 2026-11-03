@@ -1,4 +1,5 @@
-![Row-major assembly](row-major-assembly.png)
+!<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/57698bc8-08e2-41b2-8bb6-8fead7485b43" />
+
 
 I tested row-major and column-major traversal using four different matrix sizes. Both functions produced the same sum, which confirms that they performed the same computation. However, the execution times were different.
 
